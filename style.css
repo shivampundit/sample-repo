@@ -1,1 +1,134 @@
-ECHO is on.
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap');
+
+
+
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+body {
+    font-family: nunito-sans, sans-serif;
+    font-size: 10px;
+    background-color: #EDEEF0;
+}
+
+/*
+logo text
+nav link
+smaller header text
+larger text in header(h1)
+bio heading(h2)
+portfolio, skills, contact (h3)
+h4
+paragraph
+*/
+
+.logo-text {
+    font-size: 3em;
+    font-weight: 700;
+    color: #f05136;
+}
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link :hover {
+    color: #f05136;
+}
+
+header {
+    background: black;
+    color: white;
+}
+
+header div p {
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+h1,
+h3,
+h4 {
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 1.8em;
+}
+
+.link-buttton {
+    text-decoration: none;
+    text-align: center;
+    background: #f05836;
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 1.8em;
+}
+
+.link-buttton :hover {
+    color: white;
+}
+
+#bio img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+hr {
+    width: 400px;
+}
+
+#portfolio {
+    background: url();
+    background-color: black;
+    color: white;
+}
+
+#portfolio div article {
+    background: white;
+    color: black;
+    width: 300px;
+    height: 250px;
+}
+
+
+progress[value] {
+    height: 10px;
+    width: 350px;
+    -webkit-apearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: ;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0.25, inset);
+}
+
+::-webkit-progress-value {
+    background-color: #f05836;
+}
