@@ -24,6 +24,19 @@ h4
 paragraph
 */
 
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0px, 20px;
+}
+
 .logo-text {
     font-size: 3em;
     font-weight: 700;
@@ -41,9 +54,10 @@ paragraph
     color: #f05136;
 }
 
-header {
+#home {
     background: black;
     color: white;
+    height: 450px;
 }
 
 header div p {
@@ -83,13 +97,29 @@ h4 {
     letter-spacing: 0.5px;
     color: white;
     font-size: 1.8em;
+    padding: 10px;
+    border-radius: 5%;
 }
 
-.link-buttton :hover {
+.link-buttton:hover {
     color: white;
 }
 
-#bio img {
+
+#bio {
+    display: flex;
+    align-items: center;
+}
+
+#bio article * {
+    margin: 20px;
+}
+
+.break {
+    display: block;
+}
+
+img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -101,6 +131,13 @@ p {
 
 hr {
     width: 400px;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #portfolio {
@@ -131,4 +168,20 @@ progress[value]::-webkit-progress-bar {
 
 ::-webkit-progress-value {
     background-color: #f05836;
+}
+
+#skill ul {
+    font-size: 1.5em;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+}
+
+.input {
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
 }
