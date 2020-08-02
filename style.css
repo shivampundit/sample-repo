@@ -33,9 +33,15 @@ nav ul {
     padding: 10px;
 }
 
+
+
 nav ul li {
     margin: 0px, 20px;
+
 }
+
+
+
 
 .logo-text {
     font-size: 3em;
@@ -48,6 +54,7 @@ nav ul li {
     text-decoration: none;
     color: black;
     cursor: pointer;
+    margin: 0 20px;
 }
 
 .nav-link :hover {
@@ -88,7 +95,7 @@ h4 {
     font-size: 1.8em;
 }
 
-.link-buttton {
+.link-button {
     text-decoration: none;
     text-align: center;
     background: #f05836;
@@ -144,15 +151,47 @@ hr {
     background: url();
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#portfolio h3,
+p,
+hr {
+    margin-bottom: 20px;
+}
+
+#portfolio div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    width: 100%;
 }
 
 #portfolio div article {
     background: white;
     color: black;
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
 }
 
+#portfolio img {
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+#portfolio div article p {
+    padding: 0 5px;
+}
 
 progress[value] {
     height: 30px;
