@@ -57,7 +57,7 @@ nav ul li {
     margin: 0 20px;
 }
 
-.nav-link :hover {
+.nav-link:hover {
     color: #f05136;
 }
 
@@ -108,7 +108,7 @@ h4 {
     border-radius: 5%;
 }
 
-.link-buttton:hover {
+.link-button:hover {
     color: white;
 }
 
