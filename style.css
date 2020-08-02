@@ -116,6 +116,11 @@ h4 {
 #bio {
     display: flex;
     align-items: center;
+    padding-bottom: 10px;
+}
+
+#bio p {
+    margin-bottom: 4px;
 }
 
 #bio article * {
@@ -151,6 +156,10 @@ hr {
     background: url();
     background-color: black;
     color: white;
+}
+
+#portfolio,
+#skills {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -181,6 +190,7 @@ hr {
     justify-content: space-around;
     text-align: center;
     border-radius: 10px;
+    border-color: black;
 }
 
 #portfolio img {
@@ -197,6 +207,7 @@ progress[value] {
     height: 30px;
     width: 350px;
     -webkit-apearance: none;
+    color: #f05836;
 }
 
 progress[value]::-webkit-progress-bar {
@@ -209,13 +220,41 @@ progress[value]::-webkit-progress-bar {
     background-color: #f05836;
 }
 
-#skill ul {
+#skills ul {
     font-size: 1.5em;
+    list-style: none;
 }
+
+#skills ul li {
+    margin: 10px 0;
+}
+
+#skill-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#skill-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills h3 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #f05136;
+}
+
+
 
 #contact {
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .input {
@@ -223,4 +262,23 @@ progress[value]::-webkit-progress-bar {
     width: 350px;
     border-radius: 3px;
     border-color: black;
+    margin: 20px 0;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h3 {
+    text-align: center;
+    margin: 20px 0;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+contact form input:last-child {
+    margin: 30px;
 }
